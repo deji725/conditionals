@@ -90,6 +90,13 @@ if(enemyAttackType == "plant"){
 // LOOPS //
 ///////////
 console.log("Challenge #7:");
+for(let i=0;i<roster.length-1;i++){
+    let str =roster[i];
+    let btr =str[0];
+    let xtr =str.length-1;
+    let vtr =str[xtr];
+    console.log(btr+vtr);
+}
 // Console.log the first and last letter of each string in the
 // "roster" array
 
